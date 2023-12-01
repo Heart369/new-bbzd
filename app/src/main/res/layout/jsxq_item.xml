@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="88dp"
+    android:layout_marginTop="15dp"
+    android:layout_height="125dp">
+
+<ImageView
+    android:layout_width="88dp"
+    android:layout_height="106dp"
+    android:background="@drawable/five_back"
+    android:src="@drawable/os_kl_cs"
+    android:paddingBottom="19dp"
+    android:adjustViewBounds="true"
+    android:id="@+id/img_jsxq"
+    >
+</ImageView>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/five_back_dt">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/jsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="可莉"
+        android:textSize="17dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/ys"
+        android:src="@drawable/ys_s"
+        android:adjustViewBounds="true"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/zxyj"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="1"
+        android:id="@+id/mz"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jsname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:text="LV_90"
+        android:textSize="17dp">
+
+    </TextView>
+</RelativeLayout>

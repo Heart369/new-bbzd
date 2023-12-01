@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zdy="http://schemas.android.com/apk/res-auto/com.example.main.raw.Zdyclass"
+    tools:ignore="ResAuto">
+
+    <data>
+
+        <variable
+            name="onClickListener"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="vm"
+            type="com.example.main.mvvm.calculator.Calculator_ViewModel" />
+
+        <variable
+            name="revm"
+            type="com.example.main.mvvm.request.RequestVM" />
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/back_cal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </View>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/fh">
+
+            <TextView
+                android:id="@+id/title_calculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_gx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginEnd="5dp"
+
+                android:text="刷新数据"
+                android:textColor="@color/white"
+                android:textSize="22sp">
+
+            </TextView>
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar_calculator"
+            android:adapter="@{vm.adapter}"
+            android:background="#000E0E0E">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/frameLayout"
+                android:layout_below="@+id/recy_cal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+            </androidx.viewpager.widget.ViewPager>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_calculator"
+            android:background="#FFFFFF"
+            android:id="@+id/re_back"
+            >
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_rawRes="@raw/welcome"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:layout_centerInParent="true"
+                >
+
+            </com.airbnb.lottie.LottieAnimationView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</layout>

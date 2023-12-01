@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="#90FFFFFF"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    >
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/js_sy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一间"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="4dp"
+            android:textSize="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/mylist_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/js_sy"
+
+            android:textColor="#FFFFFF"
+            android:textSize="10dp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/xj_imag_1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/syxx_g">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/xj_imag_2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/xj_imag_1"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/syxx_g">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/xj_imag_3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/xj_imag_2"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/syxx_g">
+
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.example.main.raw.Zdyclass.MyGridView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:dividerHeight="4dp"
+            android:divider="#00000000"
+            android:id="@+id/item2_mygrid"
+            android:layout_marginLeft="4dp"
+            android:verticalSpacing="3dp"
+            android:numColumns="4"
+            >
+        </com.example.main.raw.Zdyclass.MyGridView>
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="176dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="上半"
+                android:textColor="#FFFFFF"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="下半"
+                android:textColor="#FFFFFF"
+                >
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

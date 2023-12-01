@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:background="@drawable/shape_11dp_corners"
+   >
+
+    <ImageView
+        android:id="@+id/back_newbq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:src="@drawable/back_newbq"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实时便签:"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:arcMax="160"
+        android:layout_marginEnd="7dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="5dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/shuzhi"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar1"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar1"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar1"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar1" />
+
+
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="-10dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar1"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar1"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar1" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/dtbq"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar2"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar2"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar2"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar2"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar2"
+        android:layout_marginStart="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar2">
+
+    </TextView>
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-10dp"
+        app:arcMax="400"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar2"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar2"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar2" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/wt"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar3"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar3"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar3"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar3" />
+
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-10dp"
+        app:arcMax="300"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar3"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar2" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mj_back"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar4"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar4"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar4"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar4" />
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-10dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="5dp"
+        app:arcMax="518400"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar3"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar3"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar3" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/clzby"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar5"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar5"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar5"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar5" />
+
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar6"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="3dp"
+        android:layout_marginEnd="10dp"
+        app:arcMax="72000"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar5"
+        app:layout_constraintTop_toBottomOf="@+id/text_wt" />
+
+    <TextView
+        android:id="@+id/text_wt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="委托派遣："
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar5">
+
+    </TextView>
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar7"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcMax="72000"
+        app:arcStrokeWidth="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar6"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar6" />
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar8"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:arcProgress="0"
+        app:arcMax="72000"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar6"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar6"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar6" />
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar9"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:arcProgress="0"
+        app:arcShowLabel="false"
+        app:arcMax="72000"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="3dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar8"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar8" />
+
+    <com.king.view.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekBar10"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:arcProgress="0"
+        app:arcMax="72000"
+        app:arcShowLabel="false"
+        app:arcShowThumb="false"
+        app:arcStrokeWidth="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar8"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar8"
+        app:layout_constraintTop_toBottomOf="@+id/arcSeekBar8" />
+
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar6"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar6"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar6"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar6">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/imageView_2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar7"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar7"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar7"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar7">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView_3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar8"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar8"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar8"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar8">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView_4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar9"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar9"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar9"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar9">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView_5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar10"
+        app:layout_constraintEnd_toEndOf="@+id/arcSeekBar10"
+        app:layout_constraintStart_toStartOf="@+id/arcSeekBar10"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar10">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar2"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar2"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar2"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:id="@+id/dtbq"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#0e0e0e"
+            android:id="@+id/dtbq_time"
+            android:gravity="center|start"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar3"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar3"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar3"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+
+            android:id="@+id/wt"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#0e0e0e"
+
+            android:id="@+id/wtqk"
+            android:gravity="center|start"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar4"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar4"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar4"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+
+            android:textColor="#FFFFFF"
+            android:id="@+id/zb"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:textColor="#0e0e0e"
+            android:id="@+id/sy"
+            android:gravity="center|start"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar5"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar5"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar5"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:id="@+id/clzby"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/clzby_time"
+            android:textColor="#0e0e0e"
+            android:gravity="center|start"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar1"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar1"
+        app:layout_constraintTop_toTopOf="@id/arcSeekBar1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="数据加载中zzzzzzz"
+            android:id="@+id/shuzhi"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:id="@+id/sytime"
+            android:textColor="#0e0e0e"
+            android:gravity="center|start"
+            android:textSize="13sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar6"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar6"
+
+        android:textSize="13sp"
+        android:textColor="#0e0e0e"
+        android:gravity="center"
+        android:id="@+id/t1"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar6">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar7"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar7"
+
+        android:textColor="#0e0e0e"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:id="@+id/t2"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar7">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar8"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar8"
+
+        android:textColor="#0e0e0e"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:id="@+id/t3"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar8">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar9"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar9"
+
+        android:textSize="13sp"
+        android:gravity="center"
+        android:id="@+id/t4"  android:textColor="#0e0e0e"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar9">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/arcSeekBar10"
+        app:layout_constraintStart_toEndOf="@+id/arcSeekBar10"
+
+        android:textSize="13sp"
+        android:gravity="center"
+        android:textColor="#0e0e0e"
+        android:id="@+id/t5"
+        app:layout_constraintTop_toTopOf="@+id/arcSeekBar10">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

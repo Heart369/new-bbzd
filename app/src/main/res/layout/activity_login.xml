@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raw.activity.login_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FF5BBCFD"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/selector_btn_back"
+            android:textColor="@color/white"
+            android:text="返回"
+            android:id="@+id/btn_fh"
+            >
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请登录米游社账号"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    </WebView>
+
+
+</LinearLayout>

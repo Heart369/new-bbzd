@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:background="@drawable/shape_19dp"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="正在下载："
+        android:textColor="#000000"
+        android:textSize="22sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="1400kb/s"
+        android:textColor="#000000"
+        android:textSize="17sp">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/jdt_down"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/zw"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:progressDrawable="@drawable/jdt">
+
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/jtsj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jdt_down"
+        android:layout_alignRight="@+id/jdt_down"
+        android:text="10/50MB"
+        android:textColor="#000000">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/bfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jdt_down"
+        android:layout_alignTop="@+id/jdt_down"
+        android:text="0%"
+        android:textColor="#000000">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/image_jdt"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_above="@+id/jdt_down"
+        android:layout_alignTop="@+id/sur"
+        android:layout_marginRight="-30dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/zdh">
+
+    </ImageView>
+
+    <SurfaceView
+        android:id="@+id/sur"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/jdt_down"
+        android:adjustViewBounds="true">
+
+    </SurfaceView>
+
+
+    <View
+        android:id="@+id/zw"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true">
+
+    </View>
+</RelativeLayout>

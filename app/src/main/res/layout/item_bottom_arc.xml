@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.main.raw.activity.HMatrixTranslateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="110dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.main.raw.activity.CircleRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="79.4dp"
+            android:layout_height="95.6dp"
+            android:src="@drawable/os_kl_cs"
+            android:paddingBottom="17dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/js_tx"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/bj"
+            android:layout_width="79.4dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/five_back_dt">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/js_tx"
+            android:layout_marginTop="-19dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/lv_bo"
+           >
+
+        </TextView>
+
+
+    </com.example.main.raw.activity.CircleRelativeLayout>
+
+
+</com.example.main.raw.activity.HMatrixTranslateLayout>

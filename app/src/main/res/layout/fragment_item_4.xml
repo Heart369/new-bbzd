@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E192B0D6"
+        android:orientation="horizontal"
+        android:id="@+id/lin_f4"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/jsmz"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ys_h"
+            android:id="@+id/tf_tb"
+            android:padding="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="123467"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:id="@+id/tf_name"
+            android:layout_marginLeft="5dp"
+
+            >
+
+        </TextView>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gif_item"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/lin_f4"
+        >
+
+    </ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="123444444444444444444444444444444444444444444"
+    android:textSize="19sp"
+    android:id="@+id/zw"
+    android:layout_below="@+id/gif_item"
+    >
+</TextView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zw"
+        android:scrollbars="none">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_f4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            >
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </HorizontalScrollView>
+    <com.example.main.raw.Zdyclass.MyListView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zw"
+        android:id="@+id/list_f4"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        >
+    </com.example.main.raw.Zdyclass.MyListView>
+
+</RelativeLayout>

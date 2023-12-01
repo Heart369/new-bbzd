@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource"
+    app:cardCornerRadius="8dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_bj"
+        android:background="@drawable/xm_bj2">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/img_gj"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xmi">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_gjname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_gj"
+        android:layout_centerHorizontal="true"
+        android:text="层岩巨渊·地下矿区"
+        android:textSize="15dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_jd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_gjname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="1%"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/jdt"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/text_jd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:max="1000"
+        android:progress="630"
+        android:progressDrawable="@drawable/jdt">
+
+    </ProgressBar>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

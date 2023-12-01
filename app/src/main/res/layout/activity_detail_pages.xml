@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zdy="http://schemas.android.com/apk/res-auto/com.example.main.raw.Zdyclass"
+    tools:ignore="ResAuto">
+
+    <data>
+        <variable
+            name="onClickListener"
+            type="android.view.View.OnClickListener" />
+        <variable
+            name="vm"
+            type="com.example.main.mvvm.ys_bk.MainViewModel" />
+
+        <variable
+            name="revm"
+            type="com.example.main.mvvm.request.RequestVM" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mvvm.ys_bk.Detail_Pages_Activity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7FBFF6"
+            app:layout_constraintHeight_percent="@{vm.hi}"
+
+            />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:background="#7FBFF6"
+            android:fitsSystemWindows="false"
+            app:navigationIcon="@drawable/fh">
+
+            <TextView
+                android:id="@+id/title_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_detail">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:id="@+id/appbar"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#FFFFFF"
+                        >
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp">
+
+                        </View>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@{vm.username}"
+                            android:textSize="30dp"
+                            android:layout_gravity="center"
+                            android:background="#FFFFFF" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/detil_1"
+                            android:adjustViewBounds="true"
+                            >
+
+                        </ImageView>
+                    </LinearLayout>
+
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    >
+                    <TextView
+                        android:id="@+id/dj_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="基本信息"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:background="@drawable/shape_12dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="10dp"
+                        android:onClick="@{onClickListener}"
+                        >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/dj_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_12dp"
+                        android:text="材料-命座"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:onClick="@{onClickListener}"
+                        >
+
+                    </TextView>
+
+                    <TextView
+                       android:id="@+id/dj_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="天赋展示"
+                        android:textSize="20sp"
+                        android:background="@drawable/shape_12dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="10dp"
+                        android:onClick="@{onClickListener}"
+                        >
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:id="@+id/cs_nest"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"
+                    android:adapter="@{vm.adapter_recy}"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:id="@+id/recy_detail"
+                    android:overScrollMode="never"
+                    >
+                </androidx.recyclerview.widget.RecyclerView>
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</layout>

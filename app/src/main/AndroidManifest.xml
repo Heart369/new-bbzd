@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.main">
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 安装APK权限 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- sdcard 读权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:requestLegacyExternalStorage="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.蹦蹦炸弹"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".raw.activity.SmActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".mvvm.calculator.Main_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm.calculator.Calculator_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Menu_Activity.Gy_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm.sywmnq.Qh_Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".mvvm.sywmnq.SywMain_Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".mvvm.ys_bk.Detail_Wq_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm.ys_bk.Detail_Pages_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.ys_bk.Js_xq_Activity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files_paths" />
+        </provider>
+
+        <activity
+            android:name=".raw.ck_mnq.Ck_Activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".raw.Menu_Activity.Notification_Activity"
+            android:exported="false" />
+
+        <service
+            android:name=".raw.server.Update"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".raw.server.AlarmBroadcastReceiver"
+            android:exported="true"
+            android:permission="true">
+            <intent-filter>
+                <action android:name=".AlarmBroadcastReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".raw.activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.AutoSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.BottomArcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.UserCx_Activity"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".raw.activity.Sy_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.JsXq_Activity"
+            android:exported="false" />
+
+        <service
+            android:name=".raw.server.MyService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".raw.Simulator.CywQh_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Simulator.Ck_Sl_main_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Ck.History_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Ck.Cs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Ck.CkZs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Ck.Login_Url_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Ck.Ck_main_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.Menu_Activity.Set_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.ScZs.Zs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.ScZs.View1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.ScZs.ClmainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.ydfActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".raw.activity.view3_Activity"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".raw.activity.view2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.view1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".raw.activity.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

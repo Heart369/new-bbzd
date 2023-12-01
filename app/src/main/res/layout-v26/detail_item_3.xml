@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="命之座"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#1E1E1E"
+        android:background="@drawable/title_detail"
+        android:padding="12dp"
+        android:id="@+id/title_mz"
+        >
+    </TextView>
+    <com.example.main.raw.Zdyclass.MyListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_mz"
+        android:id="@+id/list_mz"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        >
+
+    </com.example.main.raw.Zdyclass.MyListView>
+
+
+
+</RelativeLayout>

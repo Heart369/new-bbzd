@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".raw.activity.UserCx_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/djd"
+        android:background="#7FBFF6"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_usercx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FBFF6"
+        android:layout_below="@id/djd"
+        android:fitsSystemWindows="false"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title_cx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="查询"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/user_cx"
+        android:id="@+id/list_user"
+        android:divider="#00000000"
+        android:dividerHeight="14dp"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:scrollbars="none"
+        >
+    </ListView>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/user_cx"
+        android:layout_below="@+id/toolbar_usercx"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_11dp_corners"
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/search"
+                >
+
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="输入uid"
+                android:background="#000E0E0E"
+                android:id="@+id/edit_user"
+                android:singleLine="true"
+                android:inputType="number"
+                android:textColor="#7FBFF6"
+                >
+            </EditText>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/user_r1"
+            android:background="@drawable/button_ck_3"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索"
+                android:textColor="#0e0e0e"
+                android:layout_centerInParent="true"
+                android:textSize="14dp"
+                >
+            </TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:lottie_rawRes="@raw/bybick"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    android:layout_centerInParent="true"
+    android:id="@+id/lottie_cx"
+    >
+
+</com.airbnb.lottie.LottieAnimationView>
+
+
+</RelativeLayout>

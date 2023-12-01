@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raw.Ck.Login_Url_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#7FBFF6"
+    android:id="@+id/cbs"
+    android:orientation="horizontal">
+
+</LinearLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ck_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FBFF6"
+        android:fitsSystemWindows="false"
+        android:layout_below="@+id/cbs"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_ck_login"
+        android:id="@+id/web_2"
+        >
+
+    </WebView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_ck_login"
+        android:text="12345"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#7FBFF6"
+        android:id="@+id/zsjz"
+        >
+
+    </TextView>
+</RelativeLayout>

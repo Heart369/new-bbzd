@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mj_jy"
+    tools:context=".raw.Simulator.Ck_Sl_main_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ck_sl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FBFF6"
+        android:fitsSystemWindows="true"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="圣遗物模拟"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.Toolbar>
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:src="@drawable/lq"
+    android:layout_marginTop="480dp"
+    android:layout_marginLeft="180dp"
+    android:id="@+id/img_lq"
+    >
+</ImageView>
+
+    <RelativeLayout
+        android:id="@+id/re_hd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_ck_sl"
+        android:background="#B00E0E0E">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_ck"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="获得"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RelativeLayout
+
+            android:id="@+id/layout_ck"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="70dp"
+                        android:layout_height="87dp">
+
+                        <ImageView
+                            android:id="@+id/syw_img_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="87dp"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/five_back"
+                            android:src="@drawable/syw_title_ft_1">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/syw_text_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="13dp"
+                        android:text="无常之面"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_2"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="70dp"
+                        android:layout_height="87dp">
+
+                        <ImageView
+                            android:id="@+id/syw_img_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="87dp"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/five_back"
+                            android:src="@drawable/syw_title_ft_1">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/syw_text_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="13dp"
+                        android:text="无常之面"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_3"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="70dp"
+                        android:layout_height="87dp">
+
+                        <ImageView
+                            android:id="@+id/syw_img_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="87dp"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/five_back"
+                            android:src="@drawable/syw_title_ft_1">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textStyle="bold"></TextView>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/syw_text_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="13dp"
+                        android:text="无常之面"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="70dp"
+                        android:layout_height="87dp">
+
+                        <ImageView
+                            android:id="@+id/syw_img_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="87dp"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/five_back"
+                            android:src="@drawable/syw_title_ft_1">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="17dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:text="1"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textStyle="bold"></TextView>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/syw_text_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="13dp"
+                        android:text="无常之面"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="8dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_fh"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/layout_ck"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_ck"
+            android:text="返回"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+        </Button>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/re3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_ck_sl"
+        android:background="#B00E0E0E">
+
+        <LinearLayout
+            android:id="@+id/ckxx"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/syw_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/syw_title"
+                android:paddingLeft="18dp"
+                android:text="hallo"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#AE792A">
+
+                <TextView
+                    android:id="@+id/syw_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="12345"
+                    android:textColor="#FFFFFF">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/exp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="14%"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/mainname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/exp"
+                    android:layout_marginLeft="10dp"
+                    android:text="攻击力"
+                    android:textColor="#BFBBBB">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/syw_title_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="175dp"
+                    android:adjustViewBounds="true">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDDBE2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_15dp"
+                    android:paddingTop="3dp"
+                    android:text="+0"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/ct1"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="元素充能效率+123"
+                    android:textColor="#434343"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/ct2"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="1dp"
+                    android:text="元素充能效率+123"
+                    android:textColor="#434343"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ct3"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="1dp"
+                    android:text="元素充能效率+123"
+                    android:textColor="#434343"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ct4"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="1dp"
+                    android:text="元素充能效率+123"
+                    android:textColor="#434343"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="翠绿之影"
+                    android:textColor="#3ACC6F"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:text="2件套：获得15%风元素伤害加成"
+                    android:textColor="#838181"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="4件套：扩散反应造成的伤害提升60%，根据扩散的元素类型，降低受到影响的敌人40%对应元素抗性，持续10s"
+                    android:textColor="#838181"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_qh"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ckxx"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_ck_3"
+            android:text="去强化"
+            android:textColor="#000000"
+
+            android:textStyle="bold">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_fh_2"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ckxx"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_ck_3"
+            android:text="返回"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+        </Button>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

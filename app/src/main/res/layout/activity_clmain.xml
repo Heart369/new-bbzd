@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raw.ScZs.ClmainActivity">
+
+  <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#7FBFF6"
+      android:id="@+id/toolbar_cmain"
+      android:fitsSystemWindows="true"
+      app:navigationIcon="@drawable/fh"
+      >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="材料一览"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+  </androidx.appcompat.widget.Toolbar>
+  <com.google.android.material.tabs.TabLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tab_1"
+      app:tabSelectedTextColor="#FF2384FA"
+      app:tabTextColor="#000000"
+      app:tabIndicatorColor="#167CF8"
+      app:tabIndicatorHeight="5dp"
+
+      >
+  </com.google.android.material.tabs.TabLayout>
+
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/viewPager_cl"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      >
+
+  </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

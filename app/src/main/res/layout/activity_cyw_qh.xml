@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/syw_bj"
+
+    tools:context=".raw.Simulator.CywQh_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_syw_sl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FBFF6"
+        android:fitsSystemWindows="true"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="圣遗物模拟强化"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/syw_qhsl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_syw_sl"
+        android:layout_marginLeft="20dp"
+        android:text="+0"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/qhsl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_syw_sl"
+        android:layout_marginLeft="100dp"
+        android:text="+0"
+        android:textColor="#F6BF7B"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXP"
+        android:textColor="#D334F6"
+        android:layout_below="@+id/syw_qhsl"
+        >
+
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/syw_jdt"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syw_qhsl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/jdt">
+
+    </ProgressBar>
+
+    <ImageView
+        android:id="@+id/img_syw"
+        android:layout_width="175dp"
+        android:layout_height="193dp"
+        android:layout_below="@+id/syw_jdt"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/syw_title_ft_1">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/syw_mainct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syw_jdt"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/img_syw"
+        android:text="攻击力"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syw_mainct"
+        android:layout_toRightOf="@+id/img_syw"
+        android:text="3%"
+        android:textSize="30sp"
+        android:id="@+id/syw_zct_exp"
+        android:textStyle="bold">
+    </TextView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toEndOf="@+id/img_syw"
+    android:layout_below="@+id/syw_zct_exp"
+    android:layout_marginRight="20dp"
+    android:id="@+id/re1"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3%"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/syw_fct_1"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3%"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:id="@+id/syw_fct_5"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold">
+    </TextView>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_syw"
+        android:layout_below="@+id/re1"
+        android:layout_marginRight="20dp"
+        android:id="@+id/re2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+
+            android:textSize="20sp"
+            android:id="@+id/syw_fct_2"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+
+            android:textSize="20sp"
+            android:id="@+id/syw_fct_6"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold">
+        </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_syw"
+        android:layout_below="@+id/re2"
+        android:layout_marginRight="20dp"
+        android:id="@+id/re3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+
+            android:textSize="20sp"
+            android:id="@+id/syw_fct_3"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3%"
+
+            android:textSize="20sp"
+            android:id="@+id/syw_fct_7"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold">
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re3"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/img_syw">
+
+        <TextView
+            android:id="@+id/syw_fct_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="3%"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/syw_fct_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:text="3%"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_qh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_ck_3"
+        android:text="强化"
+        android:textColor="#000000"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_qr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_sywzs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_ck_3"
+        android:text="确认"
+        android:textColor="#000000"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_qh"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/button_ck_3"
+        android:text="使用4级小狗粮"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_f"
+        android:layout_marginBottom="-1dp"
+        android:background="@drawable/button_ck_3"
+        android:text="使用20级大狗粮"
+        android:textColor="#000000"
+        android:textStyle="bold">
+
+    </Button>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:id="@+id/re_sywzs"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/r0"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:background="#CEFFA547">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:text="升级"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/syw_zsl_img"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/five_back"
+                android:src="@drawable/syw_title_ft_1">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:text="+10"
+                android:id="@+id/text_dj"
+                android:textColor="#000000"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_fct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r0"
+        android:background="#AE424242">
+
+        <RelativeLayout
+            android:id="@+id/re_zct"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#110E0E0E">
+
+            <TextView
+                android:id="@+id/zct_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="攻击力"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/zct_old"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="12%"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/zct_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20%"
+                android:textColor="#F3CA7D"
+                android:textSize="20dp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_fct1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/re_zct"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#120E0E0E">
+
+            <TextView
+                android:id="@+id/fct_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="攻击力"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/old_sz1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="12%"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/new_fct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20%"
+                android:textColor="#F3CA7D"
+                android:textSize="15dp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_fct2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/re_fct1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#120E0E0E">
+
+            <TextView
+                android:id="@+id/fct_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="攻击力"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/old_sz2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="12%"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/new_fct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20%"
+                android:textColor="#F3CA7D"
+                android:textSize="15dp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_fct3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/re_fct2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="#120E0E0E">
+
+            <TextView
+                android:id="@+id/fct_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="攻击力"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/old_sz3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="12%"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/new_fct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20%"
+                android:textColor="#F3CA7D"
+                android:textSize="15dp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_fct4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/re_fct3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="#120E0E0E">
+
+            <TextView
+                android:id="@+id/fct_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="攻击力"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/old_sz4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="12%"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/new_fct4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20%"
+                android:textColor="#F3CA7D"
+                android:textSize="15dp">
+
+            </TextView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+</RelativeLayout>

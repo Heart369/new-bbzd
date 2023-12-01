@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="wrap_content">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds="true"
+       android:src="@drawable/js_back"
+       android:padding="3dp"
+       >
+   </ImageView>
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds="true"
+       android:layout_centerVertical="true"
+       android:padding="4.2dp"
+       android:id="@+id/wuqi"
+
+       >
+
+   </ImageView>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:adjustViewBounds="true"
+       android:src="@drawable/sj_back_qz">
+
+   </ImageView>
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="25dp"
+       android:adjustViewBounds="true"
+       android:layout_marginTop="190dp"
+       android:src="@drawable/wq_dsj"
+       android:id="@+id/wq_tb"
+       >
+   </ImageView>
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="13dp"
+       android:adjustViewBounds="true"
+       android:layout_marginTop="213dp"
+       android:src="@drawable/icon_5"
+       android:id="@+id/xx"
+       >
+   </ImageView>
+
+</RelativeLayout>

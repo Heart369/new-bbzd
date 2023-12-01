@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/mj_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/mj_title"
+        android:gravity="center|left"
+        android:padding="6dp"
+        android:text="xxxxx副本"
+        android:textColor="#FDD68A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/jyt"
+       android:adjustViewBounds="true"
+       android:layout_below="@+id/mj_title"
+       android:id="@+id/mjback"
+       >
+
+   </ImageView>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/syw_title_ft_1"
+        android:layout_below="@id/mj_title"
+        android:id="@+id/cc1"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/syw_title_ft_1"
+        android:layout_below="@id/mj_title"
+        android:layout_toRightOf="@id/cc1"
+        android:id="@+id/cc2"
+        >
+
+    </ImageView>
+
+</RelativeLayout>

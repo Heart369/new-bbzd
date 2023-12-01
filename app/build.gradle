@@ -1,0 +1,81 @@
+plugins {
+    id 'com.android.application'
+
+}
+android {
+    packagingOptions
+            {
+                exclude'META-INF/DEPENDENCIES'
+            }
+
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.main"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.5.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        dataBinding.enabled=true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation  'com.jwenfeng.pulltorefresh:library:1.2.7'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'commons-codec:commons-codec:1.11'
+    implementation 'com.squareup.okhttp3:okhttp:4.4.1'//okHttp
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.7.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation'com.airbnb.android:lottie:3.4.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava3:2.9.0'
+    implementation 'com.google.guava:guava:27.0.1-android'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+//
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+    implementation 'io.github.afkt:DevAppX:2.4.2'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.23'
+    implementation 'com.android.support:design:29.0.3'
+    implementation 'com.bm.photoview:library:1.4.1'
+    // 图片压缩 (按需引入)
+    implementation 'io.github.lucksiege:compress:v3.0.9'
+    // 图片裁剪 (按需引入)
+    implementation 'com.github.yalantis:ucrop:2.2.6'
+    implementation 'io.github.lucksiege:pictureselector:v3.11.1'
+    //水波纹
+    implementation 'com.scwang.wave:MultiWaveHeader:1.0.0-andx'
+    //扫描二维码
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    //圆形进度条
+    implementation 'com.github.jenly1314:arcseekbar:1.0.3'
+
+
+}

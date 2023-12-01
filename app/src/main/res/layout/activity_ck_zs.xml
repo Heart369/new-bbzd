@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".raw.Ck.CkZs_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ck_zs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FBFF6"
+        android:fitsSystemWindows="true"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="抽卡分析"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/ck_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_ck_zs"
+        app:tabIndicatorColor="#4EAEED"
+        app:tabIndicatorHeight="4dp"
+        app:tabSelectedTextColor="#4EAEED"
+        app:tabTextColor="#0e0e0e"
+
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ck_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ck_toolbar"
+       >
+
+    </androidx.viewpager.widget.ViewPager>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7FBFF6"
+        android:id="@+id/image_ck"
+        android:layout_below="@id/toolbar_ck_zs"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ts"
+        android:textColor="#FB4A97"
+        android:textSize="20dp"
+        android:text="加载中"
+        >
+    </TextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:lottie_rawRes="@raw/bybick"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+     >
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+</RelativeLayout>

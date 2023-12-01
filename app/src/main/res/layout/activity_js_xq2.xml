@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raw.ys_bk.Js_xq_Activity">
+
+    <ImageView
+        android:id="@+id/back_bk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="@drawable/back_bk">
+
+    </ImageView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_js"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:fitsSystemWindows="true">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy_bk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cx"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/sx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cx"
+            android:orientation="horizontal"
+            android:background="@drawable/hb"
+
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/sx_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:padding="5dp"
+                    android:text="元素"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/sx_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:padding="5dp"
+                    android:text="属地"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/sx_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:padding="5dp"
+                    android:text="类型"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4">
+
+                <GridView
+                    android:id="@+id/grid_sx"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="4dp"
+                    android:numColumns="3" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/zw"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_js_xq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zw"
+            android:layout_marginTop="-1dp"
+            android:fitsSystemWindows="false"
+            app:navigationIcon="@drawable/fh">
+
+            <TextView
+                android:id="@+id/title_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="原神百科"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/cx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar_js_xq"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_21dp_corners"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/search">
+
+                </ImageView>
+
+                <EditText
+                    android:id="@+id/edit_user_bk"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#000E0E0E"
+                    android:hint="输入角色名称"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHint="#CB0E0E0E">
+
+                </EditText>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iamge_sx"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:src="@drawable/sx">
+
+            </ImageView>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/jz"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/jz_dj"
+
+            >
+
+        </com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jz"
+            android:layout_centerHorizontal="true"
+            android:autoSizeTextType="uniform"
+            android:text="初始化数据..请稍后"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/ys_h"
+    android:id="@+id/image_tx"
+    android:background="@drawable/jsmz"
+    android:padding="3dp"
+    >
+</ImageView>
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/mzwjs"
+    android:id="@+id/wjs"
+    >
+
+</ImageView>
+</RelativeLayout>

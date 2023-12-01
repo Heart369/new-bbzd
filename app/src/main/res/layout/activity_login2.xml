@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".raw.activity.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#7FBFF6"
+        android:layout_height="30dp"
+        android:id="@+id/csd"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/csd"
+        android:background="#7FBFF6"
+        android:fitsSystemWindows="false"
+        app:navigationIcon="@drawable/fh">
+
+        <TextView
+            android:id="@+id/title_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <WebView
+        android:id="@+id/web_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_login"
+        >
+
+    </WebView>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/shalou"
+        app:lottie_loop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/lottie_login"
+        >
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lottie_login"
+        android:layout_centerHorizontal="true"
+        android:text="正在获取Cookie请勿退出"
+        android:textColor="#7FBFF6"
+        android:id="@+id/text_login"
+        android:textSize="20dp">
+
+    </TextView>
+</RelativeLayout>

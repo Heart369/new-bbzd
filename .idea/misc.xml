@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout-v26/detail_item_3.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/activity_clmain.xml" value="0.15572916666666667" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/activity_view4.xml" value="0.15572916666666667" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/cailiao_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/detail_item_1.xml" value="0.1" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/detail_wq_item1.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/detail_wq_title.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/jsxq_sy.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/mylist_myjs.xml" value="0.19322916666666667" />
+        <entry key="..\:/Android/heartbbzd/Jumpy-Dumpty-master/app/src/main/res/layout/tsd_item.xml" value="0.1" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/addys.xml" value="0.1975" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/button_ck.xml" value="0.178" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/button_ck_4.xml" value="0.1665" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/dbl_set.xml" value="0.239" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/dbl_ty.xml" value="0.2425" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/detail_low.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/exit_sele.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/jdt_red.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/jdt_yello.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/progress_bar_ct_red.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/progress_bar_ct_yello.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/sbw_set.xml" value="0.239" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/sbw_ty.xml" value="0.2425" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/selector_btn_back.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/shape_11dp_corners_ck.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/shape_14dp.xml" value="0.2135" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/shape_16dp.xml" value="0.226" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/shape_17dp.xml" value="0.1545" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/shape_18dp.xml" value="0.1545" />
+        <entry key="..\:/android project/app/src/main/res/drawable-v24/title_light.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_ck2.xml" value="0.2135" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_ck_3.xml" value="0.2135" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_dh.xml" value="0.2105" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_mh.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_user.xml" value="0.188" />
+        <entry key="..\:/android project/app/src/main/res/drawable/button_user_1.xml" value="0.188" />
+        <entry key="..\:/android project/app/src/main/res/drawable/cal_grid_back.xml" value="0.16" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ck_back_ys.xml" value="0.248" />
+        <entry key="..\:/android project/app/src/main/res/drawable/cs.xml" value="0.179" />
+        <entry key="..\:/android project/app/src/main/res/drawable/cscs.xml" value="0.2475" />
+        <entry key="..\:/android project/app/src/main/res/drawable/dbl.xml" value="0.2015" />
+        <entry key="..\:/android project/app/src/main/res/drawable/dbl1.xml" value="0.1545" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail.xml" value="0.183" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_back.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_bk.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_dj.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_item_3.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_noyj.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_noyj_back.xml" value="0.1665" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_noyj_low.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/detail_noyj_title.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/dg_dj.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/dg_qx.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/fgx.xml" value="0.186" />
+        <entry key="..\:/android project/app/src/main/res/drawable/grid_item.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/grid_item_2.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/hs_yj.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_baseline_build_24.xml" value="0.186" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_baseline_change_history_24.xml" value="0.148" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.186" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.186" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.186" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2025" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_1.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_anemo.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_cryo.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_electro.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_geo.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_hydro.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_pop.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jb_pyro.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jdt.xml" value="0.2115" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jdt2.xml" value="0.174" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jdt_green.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable/jsxq_sy.xml" value="0.226" />
+        <entry key="..\:/android project/app/src/main/res/drawable/kc_back.xml" value="0.199" />
+        <entry key="..\:/android project/app/src/main/res/drawable/lq.xml" value="0.178" />
+        <entry key="..\:/android project/app/src/main/res/drawable/main_1.xml" value="0.1755" />
+        <entry key="..\:/android project/app/src/main/res/drawable/one_back.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/drawable/pro_syw.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/progress_bar_ct.xml" value="0.173" />
+        <entry key="..\:/android project/app/src/main/res/drawable/rounded_corners.xml" value="0.2025" />
+        <entry key="..\:/android project/app/src/main/res/drawable/sbw.xml" value="0.2015" />
+        <entry key="..\:/android project/app/src/main/res/drawable/sbw1.xml" value="0.1545" />
+        <entry key="..\:/android project/app/src/main/res/drawable/sbw_blue.xml" value="0.196" />
+        <entry key="..\:/android project/app/src/main/res/drawable/scrollbar.xml" value="0.193" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape.xml" value="0.177" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_10dp_corners.xml" value="0.1915" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_11dp_corners.xml" value="0.1915" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_11dp_user.xml" value="0.188" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_12dp.xml" value="0.1875" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_13dp.xml" value="0.178" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_15dp.xml" value="0.2135" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_18dp.xml" value="0.203" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_19dp.xml" value="0.203" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_20dp.xml" value="0.248" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_21dp.xml" value="0.1855" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_21dp_corners.xml" value="0.183" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_cal_b.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_cal_b_yi.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_cal_h.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_cal_h_bk.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/shape_cal_h_yj.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/switch_hk.xml" value="0.2415" />
+        <entry key="..\:/android project/app/src/main/res/drawable/syw_exit_qr.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/syw_fh.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/syw_jbback.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/syw_qh.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/ten_back.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/drawable/title_detail.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/title_light_left.xml" value="0.1835" />
+        <entry key="..\:/android project/app/src/main/res/drawable/tjcl.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/xzq_bk.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/yj_bj.xml" value="0.226" />
+        <entry key="..\:/android project/app/src/main/res/drawable/yj_bk_bj.xml" value="0.226" />
+        <entry key="..\:/android project/app/src/main/res/drawable/yxjb.xml" value="0.1615" />
+        <entry key="..\:/android project/app/src/main/res/drawable/zdh.xml" value="0.302" />
+        <entry key="..\:/android project/app/src/main/res/drawable/zxyj.xml" value="0.2035" />
+        <entry key="..\:/android project/app/src/main/res/layout-v26/activity_ck.xml" value="0.1921875" />
+        <entry key="..\:/android project/app/src/main/res/layout-v26/activity_js_xq2.xml" value="0.3609375" />
+        <entry key="..\:/android project/app/src/main/res/layout-v26/calculator_item_2.xml" value="0.1875" />
+        <entry key="..\:/android project/app/src/main/res/layout-v26/detail_item_3.xml" value="0.3619791666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout-v26/detail_item_4.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_auto_select_activity.xml" value="0.34739583333333335" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_bk_xx.xml" value="0.18020833333333333" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_bottom_arc.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_calculator.xml" value="0.1" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_ck.xml" value="0.18" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_ck_main.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_ck_sl_main.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_ck_zs.xml" value="0.16510416666666666" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_clmain.xml" value="0.19479166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_cs.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_cs_cs.xml" value="0.2328125" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_cyw_qh.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_detail_pages.xml" value="0.16" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_detail_wq.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_devlog.xml" value="0.3401268115942029" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_gy.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_history.xml" value="0.14322916666666666" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_js_xq.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_js_xq2.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_login.xml" value="0.3401268115942029" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_login2.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_login_url.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_qh.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_role_message.xml" value="0.21458333333333332" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_sm.xml" value="0.14" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_sx.xml" value="0.19947916666666668" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_sy.xml" value="0.312710911136108" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_syw_main.xml" value="0.16" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_user_cx.xml" value="0.383248730964467" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view1.xml" value="0.18" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view2.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view3.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view4.xml" value="0.19479166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view5.xml" value="0.19479166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view6.xml" value="0.19479166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_view7.xml" value="0.19479166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_ydf2.xml" value="0.3401268115942029" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_yz.xml" value="0.18489583333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/activity_zs.xml" value="0.3401268115942029" />
+        <entry key="..\:/android project/app/src/main/res/layout/bk_sx.xml" value="0.3609375" />
+        <entry key="..\:/android project/app/src/main/res/layout/bq_ltem.xml" value="0.18489583333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/cailiao_item.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/cal_grid.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/cal_grid_item5.xml" value="0.67" />
+        <entry key="..\:/android project/app/src/main/res/layout/calculator_item.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/ces.xml" value="0.19375" />
+        <entry key="..\:/android project/app/src/main/res/layout/ck_his.xml" value="0.18489583333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/ck_item.xml" value="0.67" />
+        <entry key="..\:/android project/app/src/main/res/layout/ck_rect_item.xml" value="0.7071713147410359" />
+        <entry key="..\:/android project/app/src/main/res/layout/cscsc.xml" value="0.18" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_grid_item.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_item3_item.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_item_1.xml" value="0.23072916666666668" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_item_2.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_wq_item1.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_wq_item2.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_wq_item3.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_wq_item4.xml" value="0.15208333333333332" />
+        <entry key="..\:/android project/app/src/main/res/layout/detail_wq_title.xml" value="0.15104166666666666" />
+        <entry key="..\:/android project/app/src/main/res/layout/detailwq_item3_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/devlog.xml" value="0.3401268115942029" />
+        <entry key="..\:/android project/app/src/main/res/layout/dhys.xml" value="0.18489583333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/dialog_item.xml" value="0.19114583333333332" />
+        <entry key="..\:/android project/app/src/main/res/layout/dialog_item1.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/download.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/drawer.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/f4_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/f4_item_dg.xml" value="0.15625" />
+        <entry key="..\:/android project/app/src/main/res/layout/fragment_cal.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/fragment_detail.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/fragment_detailwq.xml" value="0.3619791666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/fragment_item_4.xml" value="0.2765625" />
+        <entry key="..\:/android project/app/src/main/res/layout/fragmet_adapter_item.xml" value="0.67" />
+        <entry key="..\:/android project/app/src/main/res/layout/frament_ck.xml" value="0.16510416666666666" />
+        <entry key="..\:/android project/app/src/main/res/layout/grid_syw.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/gx.xml" value="0.178125" />
+        <entry key="..\:/android project/app/src/main/res/layout/haha.xml" value="0.1" />
+        <entry key="..\:/android project/app/src/main/res/layout/history_item.xml" value="0.1421875" />
+        <entry key="..\:/android project/app/src/main/res/layout/hx_ltem.xml" value="0.34782608695652173" />
+        <entry key="..\:/android project/app/src/main/res/layout/item_auto_select.xml" value="0.16354166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/item_bottom_arc.xml" value="0.5" />
+        <entry key="..\:/android project/app/src/main/res/layout/js_item.xml" value="0.2484375" />
+        <entry key="..\:/android project/app/src/main/res/layout/js_wq_item.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/jsxq_item.xml" value="0.5" />
+        <entry key="..\:/android project/app/src/main/res/layout/jsxq_sy.xml" value="0.67" />
+        <entry key="..\:/android project/app/src/main/res/layout/jszs_item.xml" value="0.4883419689119171" />
+        <entry key="..\:/android project/app/src/main/res/layout/listview_fragment.xml" value="0.20208333333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/main_list_item.xml" value="0.20572916666666666" />
+        <entry key="..\:/android project/app/src/main/res/layout/main_view1.xml" value="0.3383152173913043" />
+        <entry key="..\:/android project/app/src/main/res/layout/main_view2.xml" value="0.3383152173913043" />
+        <entry key="..\:/android project/app/src/main/res/layout/main_view_3.xml" value="0.18489583333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/mb_item.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/mylist_cgh.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/mylist_item2_item1.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/mylist_item2_item2.xml" value="0.5" />
+        <entry key="..\:/android project/app/src/main/res/layout/mylist_jb.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/mylist_myjs.xml" value="0.19947916666666668" />
+        <entry key="..\:/android project/app/src/main/res/layout/new_bq.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/pop_bj.xml" value="0.22" />
+        <entry key="..\:/android project/app/src/main/res/layout/recy_bk.xml" value="0.3609375" />
+        <entry key="..\:/android project/app/src/main/res/layout/recy_item1.xml" value="0.14375" />
+        <entry key="..\:/android project/app/src/main/res/layout/set_item1.xml" value="0.2" />
+        <entry key="..\:/android project/app/src/main/res/layout/set_item2.xml" value="0.20104166666666667" />
+        <entry key="..\:/android project/app/src/main/res/layout/sh_item.xml" value="0.2109375" />
+        <entry key="..\:/android project/app/src/main/res/layout/sy.xml" value="0.1625" />
+        <entry key="..\:/android project/app/src/main/res/layout/sy_item1.xml" value="0.34782608695652173" />
+        <entry key="..\:/android project/app/src/main/res/layout/sy_item2.xml" value="0.14375" />
+        <entry key="..\:/android project/app/src/main/res/layout/sy_xz.xml" value="0.5" />
+        <entry key="..\:/android project/app/src/main/res/layout/sy_zdsj.xml" value="0.7504621072088724" />
+        <entry key="..\:/android project/app/src/main/res/layout/toobar.xml" value="0.203125" />
+        <entry key="..\:/android project/app/src/main/res/layout/tsd_item.xml" value="0.75" />
+        <entry key="..\:/android project/app/src/main/res/layout/ty_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/ty_list_dialog.xml" value="0.20833333333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/unfold.xml" value="0.19427083333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/view2_item.xml" value="0.33" />
+        <entry key="..\:/android project/app/src/main/res/layout/word.xml" value="0.25" />
+        <entry key="..\:/android project/app/src/main/res/layout/xg_item.xml" value="0.20729166666666668" />
+        <entry key="..\:/android project/app/src/main/res/layout/xzq_item.xml" value="0.20833333333333334" />
+        <entry key="..\:/android project/app/src/main/res/layout/zx_item.xml" value="0.75" />
+        <entry key="..\:/android project/app/src/main/res/menu/drwa.xml" value="0.17916666666666667" />
+        <entry key="..\:/android project/app/src/main/res/menu/menu_top.xml" value="0.19947916666666668" />
+        <entry key="..\:/android project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925" />
+        <entry key="..\:/android project/app/src/main/res/xml/files_paths.xml" value="0.18229166666666666" />
+        <entry key="..\:/android project/app/src/main/res/xml/js_item.xml" value="0.2484375" />
+        <entry key="..\:/android project/app/src/main/res/xml/network_security_config.xml" value="0.3383152173913043" />
+        <entry key="..\:/android project/app/src/main/res/xml/provider_paths.xml" value="0.20572916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressKotlinCodeStyleNotification">
+    <option name="disableForAll" value="true" />
+  </component>
+</project>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000E0E0E">
+
+
+        <ImageView
+            android:id="@+id/image_lh"
+            android:layout_width="428dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="150dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/aehs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <com.example.main.raw.Zdyclass.MyListView
+            android:id="@+id/list_mz"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:divider="@null"
+            android:dividerHeight="2.5dp"
+            android:listSelector="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.example.main.raw.Zdyclass.MyListView>
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="神里绫华"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.98"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01"
+
+            />
+
+        <TextView
+            android:id="@+id/textView_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lv_90  0命"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView_name"
+            app:layout_constraintTop_toBottomOf="@+id/textView_name" />
+
+        <com.example.main.raw.Zdyclass.MyListView
+            android:id="@+id/list_mb"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_lv">
+
+        </com.example.main.raw.Zdyclass.MyListView>
+
+        <ImageView
+            android:id="@+id/imageView_e"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/jsmz"
+            app:layout_constraintEnd_toStartOf="@+id/list_mb"
+            app:layout_constraintStart_toEndOf="@+id/list_mz"
+            app:layout_constraintTop_toBottomOf="@+id/image_lh"
+
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/iamge_q"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/jsmz"
+            app:layout_constraintEnd_toStartOf="@+id/list_mb"
+            app:layout_constraintStart_toEndOf="@+id/imageView_e"
+            app:layout_constraintTop_toBottomOf="@+id/image_lh">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageView_a"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/jsmz"
+            app:layout_constraintEnd_toStartOf="@+id/imageView_e"
+            app:layout_constraintStart_toEndOf="@+id/list_mz"
+            app:layout_constraintTop_toBottomOf="@+id/image_lh">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dj_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_15dp"
+            android:paddingStart="8dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="1dp"
+            android:text="10"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_a"
+            app:layout_constraintEnd_toEndOf="@+id/imageView_a"
+            app:layout_constraintStart_toStartOf="@+id/imageView_a">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/dj_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_15dp"
+            android:paddingStart="8dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="1dp"
+            android:text="10"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_e"
+            app:layout_constraintEnd_toEndOf="@+id/imageView_e"
+            app:layout_constraintStart_toStartOf="@+id/imageView_e">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dj_q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_15dp"
+            android:paddingStart="8dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="1dp"
+            android:text="10"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/iamge_q"
+            app:layout_constraintEnd_toEndOf="@+id/iamge_q"
+            app:layout_constraintStart_toStartOf="@+id/iamge_q">
+
+        </TextView>
+
+        <com.example.main.raw.Zdyclass.MyGridView
+            android:id="@+id/grid_cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollbars="none"
+            android:verticalSpacing="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list_mb" />
+
+        <com.example.main.raw.Zdyclass.MyGridView
+            android:id="@+id/grid_sh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollbars="none"
+            android:verticalSpacing="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grid_cal" />
+        <TextView
+            android:id="@+id/text_th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="22sp"
+            android:textColor="#60BEFF"
+            android:paddingLeft="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/grid_sh"
+            android:visibility="gone"
+            >
+
+        </TextView>
+        <com.example.main.raw.Zdyclass.MyGridView
+            android:id="@+id/grid_sh_2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollbars="none"
+            android:verticalSpacing="7dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_th" />
+        <com.example.main.raw.Zdyclass.MyGridView
+            android:id="@+id/grid_xg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollbars="none"
+            android:verticalSpacing="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch_sh" />
+
+        <ImageView
+            android:id="@+id/zyxq"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ck"
+            android:background="#00FFFFFF"
+            android:layout_marginStart="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grid_xg">
+
+        </ImageView>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_sh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:text="将暴击/爆率头反转，比例2：1"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@+id/grid_sh_2"
+            android:layout_marginStart="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="UseSwitchCompatOrMaterialXml">
+
+        </com.google.android.material.switchmaterial.SwitchMaterial>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
